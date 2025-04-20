@@ -1,5 +1,5 @@
 <!-- <pre>{{trips | json}}-->
-<div>
+<div *ngIf="isLoggedIn()" class="mb-3 text-end">
     <button (click)="addTrip()" class="btn btn-info">Add Trip</button>
 </div>
 <div class="row">
